@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    overflow-x: hidden;
+    background: url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdoaXRlJTIwJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background: linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0.3));
+}
+
+header{
+    padding: 40px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(219, 153, 68);
+    height: 18px;
+    box-shadow: 0px 1px 0.5px rgb(122, 121, 121);
+}
+
+span{
+    color: rgb(245, 28, 28);
+}
+
+header li{
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 190px;
+}
+
+header a:hover{
+    color: red;
+}
+
+.main{
+    margin-left: 185px;
+    padding-top: 200px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.background{
+    background-color: orange;
+    border-radius: 100%;
+    width: 600vw;
+    height: 100vh;
+    margin-left: 50px;
+}
+
+.main #Role{
+    color: red;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.main #ap{
+    font-size: 18px;
+    line-height: 25px;
+    
+}
+
+img{
+    height: 350px;
+    margin-top: 120px;
+    margin-left: 100px;
+    width: 300px;
+}
+
+#Find{
+    color: rgb(83, 81, 81);
+}
+
+.socials a{
+    text-decoration: none;
+}
+
+.socials i{
+    color: black;
+    font-size: 20px;
+}
+
+.Contents{
+    display: flex;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.Contents a{
+    color: red;
+    font-size: 10.5px;
+    text-decoration: none;
+}
+
+.Contents h2{
+    text-transform: uppercase;
+}
+
+.Contents div{
+    border: 1px solid black;
+    margin-left: 40px;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.Contents div{
+    animation: fadeIn 3s ease-in-out ;
+}
+
+@keyframes fadeIn{
+    from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.Contents li{
+    list-style: none;
+    line-height: 50px;
+}
+
+.Contents .two{
+    background-color: #333333;
+    border: none;
+}
+
+.Contents .three{
+    background-color: rgb(150, 3, 3);
+    border: none;
+    color: rgba(15, 15, 15, 0.749);
+}
+
+
+#Project{
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.projects{
+    display: flex;
+    padding: 10px;
+ 
+}
+
+.four{
+    background-color: rgb(171, 169, 169);
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    padding: 15px;
+    font-weight: bold;
+
+}
+
+
+.five{
+    background-color: rgb(171, 169, 169);
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    padding: 15px;
+    font-weight: bold;
+}
+
